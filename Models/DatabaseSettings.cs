@@ -6,6 +6,10 @@
 
         public string DatabaseName { get; set; } = null!;
 
-        public string BooksCollectionName { get; set; } = null!;
+        public string EducationCollectionName { get; set; } = null!;
+
+        public string ExperienceCollectionName { get; set; } = null!;
+
+        public string EmploymentCollectionName { get; set; } = null!;
     }
 }
